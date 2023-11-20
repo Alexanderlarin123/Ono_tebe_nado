@@ -1,1 +1,95 @@
 /* место для вашего кода */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: auto;
+    background: #eba7a7;
+    color: black;
+}
+
+.header {
+    width: 1440px;
+    height: 293px;
+    flex-shrink: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 51px;
+    padding-right: 49px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.header-menu {
+    width: 388px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.header-menu-list {
+    display: flex;
+    width: 388px;
+    height: 23px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    list-style:circle;
+}
+
+.header-list-item {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+.header-list-item-selected {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 148px;
+    height: 105px;
+    flex-shrink: 0;
+    background-image: url(/images/logo-black.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 240px;
+    height: 97px;
+    flex-shrink: 0;
+}
+.header-contacts-list{
+    list-style:none;
+}
+
+.cover {
+    width: 1440px;
+    height: 757px;
+    flex-shrink: 0;
+    background-image: url(/images/cover.jpg);
+}
